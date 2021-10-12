@@ -18,6 +18,6 @@ class Post(models.Model):
         return self.title
 
     class Meta:
-        verbose_name = "Девушки"
+        verbose_name = "Девушка"
         verbose_name_plural = "Девушки"
         ordering = ['created_date', 'title']
